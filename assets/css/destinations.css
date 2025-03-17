@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(../fonts/Roboto/static/Roboto-Regular.ttf);
+}
+
+body {
+    font-family: "Roboto Regular";
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    box-shadow: 0 0 15px black;
+    margin: 0;
+}
+
+#banner {
+    display: flex;
+    margin-left: 6rem;
+    margin-bottom: 4rem;
+    gap: 50%;
+    padding: 1rem;
+}
+
+ul {
+    list-style: none;
+    
+    flex-direction: row;
+    color: black;
+}
+
