@@ -6,6 +6,7 @@
 body {
     font-family: "Roboto Regular";
     margin: 0;
+    background-color: white;
 }
 
 a {
@@ -15,20 +16,50 @@ a {
 header {
     box-shadow: 0 0 15px black;
     margin: 0;
+    display: flex;
+    margin-bottom: 4rem;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#banner {
-    display: flex;
-    margin-left: 6rem;
-    margin-bottom: 4rem;
-    gap: 50%;
-    padding: 1rem;
-}
 
 ul {
     list-style: none;
-    
-    flex-direction: row;
+    display: flex;
+    gap : 1.5rem;
+    margin-right: 4rem;
+}
+
+.navbar-img {
+    margin-left: 4rem;
+}
+
+a {
     color: black;
 }
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    border: solid 2px;
+    text-align: center;
+    width: 30%; 
+    height: 70vh;
+    border-radius: 15px;
+    box-shadow: 0 0 5px black;
+    margin: 4rem;   
+}
+
+.card .img {
+    width: 100%;
+    height: 40%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
 
