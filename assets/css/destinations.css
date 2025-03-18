@@ -143,6 +143,10 @@ header {
         padding: 0;
     }
 
+    .header__wrapper .logo img {
+        width: 200%;
+    }
+
     .destinations__wrapper {
         flex-direction: column;
     }
